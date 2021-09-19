@@ -1,3 +1,4 @@
 #!/bin/bash -x
 
-$(( ( RANDOM % 5 )  + 1 ))
+x=$(( RANDOM % 6 ));
+echo $x
